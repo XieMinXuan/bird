@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register Page</title>
+    <link rel="stylesheet" href="../static/css/indexCSS.css">
+    <script type="text/javascript" src="Register_script.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="main">
+        <h2 class="headline">注册新账号</h2>
+        <br><br>
+        <label for="name" class="astyle">用户名：</label>
+        <input type="text" id="name" class="reg_input" onfocus="style.borderColor = 'black'" onblur="style.borderColor = '#c8cccf' ">
+        <div class="error_box" id="box1"><br></div>
+        <br>
+        <label for="code" class="astyle">请输入密码：</label>
+        <input type="password" id="code" class="reg_input" onfocus="style.borderColor = 'black'" onblur="style.borderColor = '#c8cccf' ">
+        <div class="error_box" id="box2"><br></div>
+        <br>
+        <label for="confirm" class="astyle">确认密码：</label>
+        <input type="password" id="confirm" class="reg_input" onfocus="style.borderColor = 'black'" onblur="style.borderColor = '#c8cccf' ">
+        <div class="error_box" id="box3"><br></div>
+        <br>
+        <label for="phoneNumber" class="astyle">手机号：</label>
+        <input type="text" id="phoneNumber" class="reg_input" onfocus="style.borderColor = 'black'" onblur="style.borderColor = '#c8cccf' ">
+        <div class="error_box" id="box4"><br></div>
+        <br>
+        <label for="mail" class="astyle">电子邮箱：</label>
+        <input type="text" id="mail" class="reg_input" onfocus="style.borderColor = 'black'" onblur="style.borderColor = '#c8cccf' ">
+        <div class="error_box" id="box5"><br></div>
+        <br><br>
+        <label for="ver_code" class="astyle">验证码：</label>
+        <input id="ver_code" type="text">
+        <br>
+        <label for="agree" class="astyle"></label>
+            <div class="check">
+        <input type="checkbox" id="agree" name="agree" style="margin-left:100px;display:inline-block;" value="1"/>
+        <span style="font-size:15px;" class="astyle">我已阅读并同意《用户注册协议》</span>
+            </div>
+        <br/>
+        <input type="submit" value="同意以上协议并注册" onclick="RegisterCheck();">
+        <div class="back">
+        <input type="submit" value="返回" onclick="getback();"></div>
+    </div>
+</div>
+<div class="Register-footer">
+    <div class="Register-footer-content">
+        <a href="#">需要帮助？ Tel：400 123 1234</a>
+    </div>
+</div>
+
+</body>
+</html>

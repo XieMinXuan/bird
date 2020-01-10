@@ -1,0 +1,327 @@
+body{
+    position: relative;
+    background-color: whitesmoke;
+    text-rendering: optimizeLegibility;
+    margin: 0;
+}
+h1,h2,h3,h4,h5{
+    text-transform: uppercase;
+    margin: 0;
+}
+.wrapper{
+    font-size: 13px;
+    position: relative;
+    margin: 0;
+}
+.main{
+    background-color: whitesmoke;
+    width: 100%;
+    height: 100%;
+}
+.header{
+    height: 150px;
+    width: 100%;
+}
+.headline{
+    font-size: 22px;
+    text-align: center;
+    padding: 20px;
+}
+
+.nav{
+    margin-top: 10px;
+    height: 50px;
+    line-height: 50px;
+}
+.nav ul li{
+    float: right;
+    font-size: 15px;
+
+}
+.nav ul li a{
+    text-decoration: cadetblue;
+    color: black;
+    padding:  15px 30px;
+}
+.nav ul li a:hover{
+    text-decoration: underline;
+    border: 1px solid black;
+    border-radius: 5%;
+    color: black;
+}
+#homepage-nav1{
+    float: left;
+    font-size: 15px;
+    margin-top: 0;
+    line-height: 20px;
+}
+#homepage-nav2{
+    float: right;
+    font-size: 15px;
+    margin-top: 0;
+    line-height: 20px;
+}
+#men-one{
+    width: 400px;
+    height: 500px;
+
+}
+#men-two{
+    width: 500px;
+    height: 500px;
+    float: right;
+    padding: 0 130px;
+}
+.homepage-men{
+    float: left;
+    padding: 85px 50px 10px 50px;
+}
+.homepage-womem{
+    float: right;
+    padding: 10px 50px 10px 50px;
+}
+
+#women-one{
+    width: 1000px;
+    height: 800px;
+}
+
+#women2{
+    width: 450px;
+    height: 500px;
+    padding: 10px 10px 0px 0px;
+}
+#women3{
+    width: 500px;
+    height: 500px;
+    padding: 10px 10px 0px 0px;
+}
+
+#other1{
+    padding: 10px 10px 0px 50px;
+}
+#other2{
+    padding: 10px 10px 0px 50px;
+}
+
+
+.sidebar{
+    float: right;
+    width: 100px;
+    margin-right: 10px;
+    height: 100%;
+    background-color: whitesmoke;
+    overflow: hidden;
+    transition: 0.8s all;
+}
+
+.sidebar ul{
+    margin-right: 10px;
+    padding: 0;
+}
+/*去点*/
+.sidebar ul li{
+    margin-right: 20px;
+    width: 100%;
+    list-style: none;
+    padding: 20px;
+}
+/*去下划线*/
+.sidebar ul li a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    transition: 0.6s all;
+    text-align: center;
+}
+.sidebar ul li a:hover{
+    background: black;
+    color: white;
+}
+
+.homepage-video{
+    width: 1200px;
+
+}
+#video1{
+    width: 1000px;
+    height: 800px;
+    padding: 50px;
+}
+
+.footer{
+    margin: 0;
+    width: 100%;
+    max-width: 100%;
+    padding: 0 35px;
+    position: relative;
+    height: 800px;
+    background-color: #222;
+    font-family: Polaris-Book,PingFang SC,Microsoft YaHei,Noto Sans CJK SC,sans-serif;
+}
+.footer ul{
+    margin: 0;
+    padding: 0;
+}
+.footer ul li{
+    list-style: none;
+    margin-bottom: 6px;
+}
+.footer ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    transition: 0.6s all;
+}
+.title{
+    color: #aaa;
+    border-bottom: none;
+    font-size: 13px;
+}
+.footer-content{
+    float: left;
+    position: relative;
+    padding-right: 1%;
+    width: 12%;
+}
+.footer-content-temp{
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+.footer-content-item{
+    display: inline-block;
+    width: 100%;
+    float: left;
+    padding-top: 10px;
+}
+.inlineBlock{
+    display: inline-block;
+}
+
+.payment{
+    margin-right: 5px;
+    width: 50px;
+    height: 32px;
+    background-image: url(https://cdn-static.farfetch-contents.com/v2-33-19317-347/static/images/payment-icons/payments_footer.svg);
+    background-repeat: no-repeat;
+}
+.alipay{
+    background-position: 0 -160px;
+}
+.wechat{
+    background-position: 0 -256px;
+}
+.unionpay{
+    background-position: 0 -224px;
+}
+.masterCard{
+    background-position: 0 -32px;
+}
+.visa{
+    background-position: 0 -96px;
+}
+
+.mt20{
+    margin-top: 20px;
+}
+.mt10{
+    margin-top: 10px;
+}
+.ml10{
+    margin-left: 10px;
+}
+.co14{
+    width: 30%;
+    max-width: 30%;
+}
+
+.newsletterSubscriber{
+    margin: -40px;
+    background-color: whitesmoke;
+    background-position: top;
+    color: black;
+    padding-right: 1.2rem;
+    padding-top: 2.4rem;
+    padding-bottom: .4rem;
+}
+.newsletterSubscriber .row{
+    margin: 0;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.newsletterSubscriber .baseline{
+    margin: 0 auto;
+}
+.pa0{
+    padding: 0 !important;
+}
+.col8{
+    width: 66.66%;
+    max-width: 66.66%;
+    flex-basis: 66.66%;
+}
+
+.col-xl-7{
+    width: 58.33333%;
+    max-width: 58.33333%;
+    flex-basis: 58.33333%;
+}
+
+.baseline{
+    float: left;
+    position: relative;
+    margin-top: 40px;
+}
+.text-center{
+    text-align: center;
+}
+.mb-XS{
+    margin-bottom: .6rem;
+}
+.font-Lbold{
+    font-family: Polaris-Bold,Helvetica,Arial,sans-serif;
+    font-size: 1.8rem;
+    line-height: 1.55;
+    text-transform: none;
+    letter-spacing: normal;
+    box-sizing: border-box;
+}
+.font-M{
+    font-family: Polaris-Book,Helvetica,Arial,sans-serif;
+    letter-spacing: normal;
+    text-transform: none;
+}
+.realFooter{
+    width: 100%;
+    padding: 15px 0;
+}
+.foot-disclaimer{
+    font-family: Polaris-Bold,Helvetica,Arial,sans-serif;
+    color: #aaa;
+}
+
+.error_box{
+    text-align: center;
+    color: crimson;
+}
+.part-container{
+    width: 33%;
+    float: left;
+    height: 100%;
+
+}
+.part-main{
+    padding: 2.4rem;
+}
+.part-title{
+    text-align: center;
+}
+
+
